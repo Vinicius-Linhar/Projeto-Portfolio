@@ -34,7 +34,7 @@ const About = () => {
         variants={sectionVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: false, amount: 0.2 }}
       >
         <div className="text-center mb-12">
             {/* 4. Textos do título traduzidos */}

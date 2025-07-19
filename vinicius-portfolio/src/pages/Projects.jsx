@@ -40,12 +40,12 @@ const Projects = () => {
     <>
       <section id="projects" className="min-h-screen flex items-center bg-[var(--color-background)] py-16 sm:py-24">
         <div className="container mx-auto px-4 sm:px-8">
-          <motion.div className="text-center mb-12" initial={{ opacity: 0, y: -20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
+          <motion.div className="text-center mb-12" initial={{ opacity: 0, y: -20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }} transition={{ duration: 0.5 }}>
             <h2 className="text-4xl lg:text-5xl font-bold text-[var(--color-foreground)]">{t('projects.title')}</h2>
             <p className="text-lg text-[var(--color-soft-foreground)] mt-2">{t('projects.subtitle')}</p>
             <div className="w-24 h-1 bg-[var(--color-primary)] mx-auto mt-4"></div>
           </motion.div>
-          <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-8" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.1 }} transition={{ staggerChildren: 0.15 }}>
+          <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-8" initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.1 }} transition={{ staggerChildren: 0.15 }}>
             {projectsData.map((project) => (
               <ProjectCard
                 key={project.id}

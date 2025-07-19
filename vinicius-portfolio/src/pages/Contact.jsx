@@ -25,7 +25,7 @@ const Contact = () => {
           className="text-center mb-16"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-[var(--color-foreground)]">{t('contact.title')}</h2>
@@ -41,7 +41,7 @@ const Contact = () => {
             method="POST"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.7 }}
           >
             <div className="mb-4">
@@ -64,7 +64,7 @@ const Contact = () => {
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.7 }}
             className="space-y-6"
           >

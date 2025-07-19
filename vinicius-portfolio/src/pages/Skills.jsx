@@ -30,7 +30,7 @@ const Skills = () => {
   return (
     <section id="skills" className="min-h-screen flex items-center bg-[var(--color-soft-background)] py-16 sm:py-24">
       <div className="container mx-auto px-4 sm:px-8">
-        <motion.div className="text-center mb-12" initial={{ opacity: 0, y: -20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
+        <motion.div className="text-center mb-12" initial={{ opacity: 0, y: -20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }} transition={{ duration: 0.5 }}>
           {/* 4. Títulos traduzidos */}
           <h2 className="text-4xl lg:text-5xl font-bold text-[var(--color-foreground)]">{t('skills.title')}</h2>
           <p className="text-lg text-[var(--color-soft-foreground)] mt-2">{t('skills.subtitle')}</p>

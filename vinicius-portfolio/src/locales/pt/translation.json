@@ -51,10 +51,20 @@
       "react": "Em aprendizado: Arquitetura de componentes e gerenciamento de estado.", "node": "Em aprendizado: Desenvolvimento de backend e design de APIs RESTful."
     }
   },
-  "projects": {
+   "projects": {
     "title": "Projetos em Destaque",
     "subtitle": "Trabalhos recentes que demonstram minha expertise técnica.",
-    "details_button": "Ver Detalhes"
+    "details_button": "Ver Detalhes",
+    "project1": {
+      "title": "E-Commerce Mobile App",
+      "short_desc": "Solução de comércio eletrônico mobile com foco na experiência do usuário.",
+      "long_desc": "Uma solução completa de e-commerce mobile construída com tecnologias modernas, integrando múltiplos gateways de pagamento e focada em uma experiência de usuário fluida e segura."
+    },
+    "project2": {
+      "title": "Data Analytics Dashboard",
+      "short_desc": "Dashboard interativo para visualização de dados com insights avançados.",
+      "long_desc": "Este projeto envolve a criação de um dashboard dinâmâmico que se conecta a uma fonte de dados para exibir gráficos e tabelas, permitindo uma análise visual e intuitiva."
+    }
   },
   "modal": {
     "live_demo": "Live Demo",

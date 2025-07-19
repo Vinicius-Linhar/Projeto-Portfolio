@@ -39,13 +39,13 @@ const Certifications = () => {
   return (
     <section id="certifications" className="min-h-screen flex items-center bg-[var(--color-soft-background)] py-16 sm:py-24">
       <div className="container mx-auto px-4 sm:px-8">
-        <motion.div className="text-center mb-16" initial={{ opacity: 0, y: -20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
+        <motion.div className="text-center mb-16" initial={{ opacity: 0, y: -20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }} transition={{ duration: 0.5 }}>
           <h2 className="text-4xl lg:text-5xl font-bold text-[var(--color-foreground)]">{t('certifications.title')}</h2>
           <p className="text-lg text-[var(--color-soft-foreground)] mt-2">{t('certifications.subtitle')}</p>
           <div className="w-24 h-1 bg-[var(--color-primary)] mx-auto mt-4"></div>
         </motion.div>
 
-        <motion.div className="max-w-4xl mx-auto space-y-4" variants={listVariants} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.1 }}>
+        <motion.div className="max-w-4xl mx-auto space-y-4" variants={listVariants} initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.1 }}>
           {certificationsData.map((cert) => (
             <motion.div
               // 2. Usamos o 'id' como a key, em vez de 'cert.title'
@@ -74,7 +74,7 @@ const Certifications = () => {
           ))}
         </motion.div>
         
-        <motion.p className="text-center text-[var(--color-soft-foreground)] mt-12" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.5 }}>
+        <motion.p className="text-center text-[var(--color-soft-foreground)] mt-12" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: false }} transition={{ duration: 0.5, delay: 0.5 }}>
           {t('certifications.footer_text')}
         </motion.p>
       </div>

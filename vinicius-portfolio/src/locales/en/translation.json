@@ -1,0 +1,105 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "home": {
+    "available": "Available for opportunities",
+    "greeting": "Hi, I'm",
+    "name": "Vinicius Linhar",
+    "role": "Full-Stack Developer",
+    "specializedIn": "Specialized in",
+    "bio": "With a solid technical foundation in Systems Development from SENAI and currently pursuing a degree in Information Systems at UNISUL, I aim to apply my discipline and focus on quality to build efficient and collaborative technological solutions.",
+    "viewProjects": "View My Projects",
+    "downloadCv": "Download CV",
+    "scroll": "Scroll to explore",
+    "skills": [
+      "Web Development",
+      "Logic & Algorithms",
+      "Versioning with Git & GitHub",
+      "SQL Databases",
+      "Python (Basic)"
+    ]
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "subtitle": "My Professional Journey",
+    "bio": "My journey in technology began with a solid technical foundation in the <strong>Systems Development course at SENAI (2022-2024)</strong>, where I developed my discipline and focus on process optimization and quality standards. In parallel, I am continuing my academic evolution in the <strong>Bachelor's program in Information Systems at UNISUL (2025-2029)</strong>, always seeking to unite practical knowledge with new technologies to create innovative solutions.",
+    "values": {
+      "value1_title": "Problem Solver",
+      "value1_desc": "Ease of learning and an analytical approach to technical challenges.",
+      "value2_title": "Focus on Quality",
+      "value2_desc": "Discipline and focus on the quality of deliverables, following standards to optimize processes.",
+      "value3_title": "Continuous Learner",
+      "value3_desc": "Adaptability and continuous learning to stay up-to-date.",
+      "value4_title": "Team Collaborator",
+      "value4_desc": "Good communication and proactivity to collaborate in a team and achieve results."
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Tools and technologies I use to build digital solutions.",
+    "categories": { "todos": "All", "frontend": "Frontend", "backend": "Backend", "database": "Database", "tools": "Tools" },
+    "desc": {
+      "html_css": "Semantic structuring and styling to create rich and accessible web interfaces.", "javascript": "Modern ES6+, DOM manipulation, and logic for web interactivity.",
+      "logic": "Solid foundation in programming logic and algorithms for problem-solving.", "python": "Basic knowledge of the language for script automation and data analysis.",
+      "git": "Code versioning for project control and team collaboration.", "database": "Notions of modeling and querying in relational databases like PostgreSQL.",
+      "react": "Learning: Component architecture and state management.", "node": "Learning: Backend development and RESTful API design."
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Recent work that demonstrates my technical expertise.",
+    "details_button": "View Details",
+    "project1": {
+      "title": "E-Commerce Mobile App",
+      "short_desc": "Mobile e-commerce solution focused on user experience.",
+      "long_desc": "A complete mobile e-commerce solution built with modern technologies, integrating multiple payment gateways and focused on a fluid and secure user experience."
+    },
+    "project2": {
+      "title": "Data Analytics Dashboard",
+      "short_desc": "Interactive dashboard for data visualization with advanced insights.",
+      "long_desc": "This project involves creating a dynamic dashboard that connects to a data source to display charts and tables, allowing for intuitive visual analysis."
+    }
+  },
+  "modal": {
+    "live_demo": "Live Demo",
+    "view_code": "View Code"
+  },
+  "certifications": {
+    "title": "Certifications & Education",
+    "subtitle": "My professional and educational achievements that validate my expertise.",
+    "view_credential": "View Credential",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "footer_text": "Continuously seeking new certifications to stay current with industry trends.",
+    "data": {
+      "bacharelado": { "title": "Bachelor of Information Systems", "issuer": "UNISUL (University of Southern Santa Catarina)" },
+      "programador": { "title": "Information Systems Programmer", "issuer": "SENAI/SC - Technical Professional Qualification", "year": "Completed in Jul/2024 (680 hours)" },
+      "python": { "title": "Programming in Python Language", "issuer": "SENAI/SC", "year": "Completed in Jun/2024 (40 hours)" },
+      "logica": { "title": "Logic and Mathematics Applied", "issuer": "SENAI/SC", "year": "Completed in Aug/2023 (8 hours)" },
+      "pitch": { "title": "Pitch - Presenting Projects", "issuer": "SENAI/SC", "year": "Completed in Jun/2023 (4 hours)" },
+      "hackathon": { "title": "Hackathon - Innovative Solutions", "issuer": "SENAI/SC", "year": "Completed in Jun/2023 (4 hours)" }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to start your next project? Let's talk.",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_message": "Message",
+    "form_submit": "Send Message",
+    "info_email": "Email",
+    "info_location": "Location",
+    "info_location_desc": "Brazil",
+    "info_response": "Response Time",
+    "info_response_desc": "I typically respond within 24 hours."
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+}

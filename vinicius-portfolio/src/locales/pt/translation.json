@@ -1,0 +1,95 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Sobre Mim",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "certifications": "Certificados",
+    "contact": "Contato"
+  },
+  "home": {
+    "available": "Disponível para oportunidades",
+    "greeting": "Olá, eu sou",
+    "name": "Vinicius Linhar",
+    "role": "Desenvolvedor Full-Stack",
+    "specializedIn": "Especializado em",
+    "bio": "Com uma base sólida em Desenvolvimento de Sistemas pelo SENAI e atualmente cursando Sistemas de Informação na UNISUL, busco aplicar minha disciplina e foco em qualidade para construir soluções tecnológicas eficientes e colaborativas.",
+    "viewProjects": "Ver Meus Projetos",
+    "downloadCv": "Download CV",
+    "scroll": "Role para explorar",
+    "skills": [
+      "Desenvolvimento Web",
+      "Lógica e Algoritmos",
+      "Versionamento com Git & GitHub",
+      "Bancos de Dados SQL",
+      "Python (Básico)"
+    ]
+  },
+  "about": {
+    "title": "SOBRE MIM",
+    "subtitle": "Minha Jornada Profissional",
+    "bio": "Minha jornada na tecnologia começou com uma base técnica sólida no curso de <strong>Desenvolvimento de Sistemas do SENAI (2022-2024)</strong>, onde desenvolvi minha disciplina e foco na otimização de processos e padrões de qualidade. Paralelamente, continuo minha evolução acadêmica no bacharelado em <strong>Sistemas de Informação na UNISUL (2025-2029)</strong>, buscando sempre unir o conhecimento prático com as novas tecnologias para criar soluções inovadoras.",
+    "values": {
+      "value1_title": "Solucionador de Problemas",
+      "value1_desc": "Facilidade de aprendizado e abordagem analítica para desafios técnicos.",
+      "value2_title": "Foco em Qualidade",
+      "value2_desc": "Disciplina e foco na qualidade das entregas, seguindo padrões para otimizar processos.",
+      "value3_title": "Aprendizado Rápido",
+      "value3_desc": "Capacidade de adaptação e aprendizado contínuo para me manter atualizado.",
+      "value4_title": "Colaborador em Equipe",
+      "value4_desc": "Boa comunicação e proatividade para colaborar em equipe e alcançar resultados."
+    }
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "subtitle": "Ferramentas e tecnologias que utilizo para construir soluções digitais.",
+    "categories": { "todos": "Todos", "frontend": "Frontend", "backend": "Backend", "database": "Database", "tools": "Ferramentas" },
+    "desc": {
+      "html_css": "Estruturação semântica e estilização para criar interfaces ricas e acessíveis.", "javascript": "ES6+ moderno, manipulação do DOM e lógica para interatividade web.",
+      "logic": "Base sólida em lógica de programação e algoritmos para a resolução de problemas.", "python": "Conhecimento básico da linguagem para automação de scripts e análise de dados.",
+      "git": "Versionamento de código para controle de projetos e colaboração em equipe.", "database": "Noções de modelagem e consulta em bancos de dados relacionais como PostgreSQL.",
+      "react": "Em aprendizado: Arquitetura de componentes e gerenciamento de estado.", "node": "Em aprendizado: Desenvolvimento de backend e design de APIs RESTful."
+    }
+  },
+  "projects": {
+    "title": "Projetos em Destaque",
+    "subtitle": "Trabalhos recentes que demonstram minha expertise técnica.",
+    "details_button": "Ver Detalhes"
+  },
+  "modal": {
+    "live_demo": "Live Demo",
+    "view_code": "Ver Código"
+  },
+  "certifications": {
+    "title": "Certificações e Educação",
+    "subtitle": "Minhas conquistas profissionais e educacionais que validam minha expertise.",
+    "view_credential": "Ver Credencial",
+    "in_progress": "Cursando",
+    "completed": "Concluído",
+    "footer_text": "Buscando continuamente novas certificações para me manter atualizado com as tendências do setor.",
+    "data": {
+      "bacharelado": { "title": "Bacharelado em Sistemas de Informação", "issuer": "UNISUL (Universidade do Sul de Santa Catarina)" },
+      "programador": { "title": "Programador de Sistemas de Informação", "issuer": "SENAI/SC - Qualificação Profissional Técnica", "year": "Concluído em Jul/2024 (680 horas)" },
+      "python": { "title": "Programação em Linguagem Python", "issuer": "SENAI/SC", "year": "Concluído em Jun/2024 (40 horas)" },
+      "logica": { "title": "Lógica e Matemática Aplicada", "issuer": "SENAI/SC", "year": "Concluído em Ago/2023 (8 horas)" },
+      "pitch": { "title": "Pitch - Apresentação de Projetos", "issuer": "SENAI/SC", "year": "Concluído em Jun/2023 (4 horas)" },
+      "hackathon": { "title": "Hackathon - Soluções Inovadoras", "issuer": "SENAI/SC", "year": "Concluído em Jun/2023 (4 horas)" }
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Pronto para começar seu próximo projeto? Vamos conversar.",
+    "form_name": "Nome",
+    "form_email": "Email",
+    "form_message": "Mensagem",
+    "form_submit": "Enviar Mensagem",
+    "info_email": "Email",
+    "info_location": "Localização",
+    "info_location_desc": "Brasil",
+    "info_response": "Tempo de Resposta",
+    "info_response_desc": "Normalmente respondo em até 24 horas."
+  },
+  "footer": {
+    "copyright": "Todos os direitos reservados."
+  }
+}

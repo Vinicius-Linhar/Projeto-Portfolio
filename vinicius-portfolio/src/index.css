@@ -1,5 +1,7 @@
 /* src/index.css */
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* ... (as 3 linhas do tailwind devem estar aqui em cima) ... */
 @import "tailwindcss";
 
@@ -16,4 +18,74 @@
 
 .spin-slow-custom {
   animation: spin 30s linear infinite;
+}
+
+/* src/index.css */
+
+/* ... (todo o seu código anterior, incluindo o .spin-slow-custom) ... */
+
+
+/* --- NOVO: Animação de flutuação --- */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Dentro de src/index.css */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* src/index.css */
+
+/* Define as cores para o tema claro (padrão) */
+:root {
+  --color-primary: #6366f1; /* Indigo 500 */
+  --color-background: #ffffff;
+  --color-foreground: #111827;
+  --color-soft-background: #f9fafb;
+  --color-soft-foreground: #6b7280;
+  --color-border: #e5e7eb;
+}
+
+/* Define as cores para o tema escuro */
+html.dark {
+  --color-primary: #818cf8; /* Indigo 400 */
+  --color-background: #030712;
+  --color-foreground: #f9fafb;
+  --color-soft-background: #1f2937;
+  --color-soft-foreground: #9ca3af;
+  --color-border: #374151;
+}
+
+/* Estilos globais para a transição suave de tema */
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+/* Estilo para o link ativo na Navbar, usando a variável de cor */
+.active {
+    color: var(--color-primary) !important;
+    font-weight: 600;
 }
